@@ -10,13 +10,15 @@
 }
 */
 .gradiente{
-    background: rgb(250,250,250);
-    background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(201,204,222,0.9346113445378151) 59%, rgba(175,178,179,1) 100%);
+    background: url(/img/x_nob5335-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contenido{
     width: 940px;
     margin: auto;
+    
 }
 main{
     display: flex;
@@ -40,36 +42,41 @@ section{
     top: 168px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 1000;
+    font-size: 50px;
     line-height: 150%;
     margin-right: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
-    box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
-    -webkit-box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
-    -moz-box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
+    box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
     border-radius: 10px;
-
+    background: transparent;
+    color: #1e1717;
+    border: 2px solid black;
 }
 
 .mensajeEncriptar2{
     width: 400px;
     height: 400px;
     left: 1100px;
-    top: 60px;
+    top: 150px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 1000;
+    font-size: 50px;
     line-height: 150%;
     margin-right: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
-    box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
-    -webkit-box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
-    -moz-box-shadow: 14px 23px 20px -3px rgba(0,0,0,0.57);
+    box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 15px 21px rgba(0,0,0,0.6);
     border-radius: 10px;
+    background-color: rgb(137, 90, 32);
+    color: #f1e8e8;
+    border: 2px solid black;
 }
 
 .logo{
@@ -77,8 +84,8 @@ section{
 }
 
 .boton1{
-    background-color: rgb(15, 63, 123);
-    color: white;
+    background-color: rgb(220, 229, 239);
+    color: rgb(45, 128, 183);
     font-size: 20px;
     align-items: flex-start;
     padding: 24px;
@@ -143,6 +150,9 @@ footer{
     font-size: 15px;
     margin:20px;
     text-align: center;
+    font-weight: 900;
+    color: #191716;
+    background: #ffffff;
 }
 
 footer strong{
